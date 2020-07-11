@@ -10,6 +10,19 @@
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
   </div>
+  <div class="footer__inner">
+      <div>
+        {{ if $.Site.Params.Links.Twitter }}
+          <span><a href="https://twitter.com/{{ $.Site.Params.Links.Twitter }}">Twitter</a></span>
+        {{ end }}
+        {{ if $.Site.Params.Links.Github }}
+          <span><a href="https://github.com/{{ $.Site.Params.Links.Github }}">Github</a></span>
+        {{ end }}
+        {{ if $.Site.Params.Links.Linkedin }}
+          <span><a href="https://linkedin.com/in/{{ $.Site.Params.Links.Linkedin }}">LinkedIn</a></span>
+        {{ end }}
+      </div>
+  </div>
 </footer>
 
 <script src="{{ "assets/main.js" | absURL }}"></script>
