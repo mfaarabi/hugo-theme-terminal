@@ -8,19 +8,21 @@
 
 ---
 
-- [Features](#features)
-- [Built-in shortcodes](#built-in-shortcodes)
-- [Code highlighting](#code-highlighting)
-- [How to start](#how-to-start)
-- [How to configure](#how-to-configure)
-- [Post archetype](#post-archetype)
-- [Add-ons](#add-ons)
-- [How to run your site](#how-to-run-your-site)
-- [How to edit the theme](#how-to-edit-the-theme)
-- [How to contribute](#how-to-contribute)
-- [Terminal theme user?](#terminal-theme-user)
-- [Sponsoring](#sponsoring)
-- [Licence](#licence)
+- [Terminal](#terminal)
+    - [DEMO - https://hugo-terminal.now.sh/](#demo---httpshugo-terminalnowsh)
+  - [Features](#features)
+      - [Built-in shortcodes](#built-in-shortcodes)
+      - [Code highlighting](#code-highlighting)
+  - [How to start](#how-to-start)
+  - [How to configure](#how-to-configure)
+  - [Post archetype](#post-archetype)
+  - [Add-ons](#add-ons)
+  - [How to run your site](#how-to-run-your-site)
+  - [How to edit the theme](#how-to-edit-the-theme)
+  - [How to contribute](#how-to-contribute)
+  - [Terminal theme user?](#terminal-theme-user)
+  - [Sponsoring](#sponsoring)
+  - [License](#license)
 
 ## Features
 
@@ -144,6 +146,7 @@ paginate = 5
     languageName = "English"
     title = "Terminal"
     subtitle = "A simple, retro theme for Hugo"
+    description = "A personal website by Me. I talk about this and that."
     owner = ""
     keywords = ""
     copyright = ""
